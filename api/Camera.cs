@@ -23,7 +23,7 @@ public class PlayerCam : MonoBehaviour
         PanCamera(-1, 0); // Pans the camera to the left
     }
 
-    void PanCamera(float xDirection, float yDirection)
+    void PanCamera(float xDirection, float yDirection) // This is the important part
     {
         /* Pans the camera given xAxis and yAxis
             xAxis:
