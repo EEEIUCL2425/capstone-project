@@ -1,6 +1,6 @@
 Documention
 
-void PanCamera(float xAxis, float yAxis)
+PanCamera(float xAxis, float yAxis)
 -Pans the camera given xAxis and yAxis:
   xAxis:
     0 > xAxis >= -1: Left
