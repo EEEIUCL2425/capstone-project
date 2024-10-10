@@ -1,0 +1,12 @@
+Documention
+
+void PanCamera(float xAxis, float yAxis)
+Pans the camera given xAxis and yAxis:
+  xAxis:
+    0 > xAxis >= -1: Left
+    0 < xAxis <= 1: Right    
+yAxis:
+    0 > yAxis >= -1: Down
+    0 < yAxis <= 1: Up
+Example:
+  PanCamera(-1, 0) - pans the camera to the left by 1
